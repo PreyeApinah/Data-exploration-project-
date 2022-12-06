@@ -24,10 +24,9 @@ Select Id,EmployeeName,JobTitle,
  Where = (Select Max(OvertimePay)
  From salaries where Year = '2014'); 
 
-Select Sum(BasePay), Year 
+Selec.  Sum(BasePay), Year 
 from Salaries Group by Year; 
 
-; 
 
 Select id, EmployeeName, JobTitle, 
 Max(TotalPay) 
